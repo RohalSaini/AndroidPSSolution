@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">P&amp;SSolution</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="soon">Coming Soon</string>
+    <string name="gooleapi">12345</string>
+
+    <string name="grocery_service_1"> P &amp; S\n Grocery </string>
+    <string name="job_service_2"> Job\nPlacement </string>
+    <string name="medicine_service_3">Medicine</string>
+    <string name="education_service_4"> Education\nService </string>
+    <string name="consultant_service_5">Consultations\n&amp;\nService</string>
+    <string name="startup_service_6">Grow your\nSTART-UP\nWith Us</string>
+
+    <!-- Grocery options -->
+    <string name="grocery_option_1">Cooking\nEssential</string>
+    <string name="grocery_option_2">Packages\nFood</string>
+    <string name="grocery_option_3">Snacks</string>
+    <string name="grocery_option_4">Beverages</string>
+    <string name="grocery_option_5">Health &amp;\nBeauty</string>
+    <string name="grocery_option_6">Baby\nCare</string>
+    <string name="grocery_option_7">Men\nCare</string>
+    <string name="grocery_option_8">Women\nBrand</string>
+    <string name="grocery_option_9">Shop by\nBrand</string>
+    <string name="grocery_option_10">Today\nOffer</string>
+
+
+    <!-- Job palcement options -->
+    <string name="job_option_1">HDFC\nBANK</string>
+    <string name="job_option_2">AXIS\nBANK</string>
+    <string name="job_option_3">ICICI\nBANK</string>
+    <string name="job_option_4">PASSPORT\nOFFICE</string>
+    <string name="job_option_5">Semi-Govt</string>
+    <string name="job_option_6">Mahindra\nTractor</string>
+    <string name="job_option_7">Receptionalist\nIn MNC</string>
+    <string name="job_option_8">Marketing</string>
+    <string name="job_option_9">BPO\KPO</string>
+    <string name="job_option_10">Immigration</string>
+    <string name="job_option_11">IT\nCompanies</string>
+    <string name="job_option_12">Pharma\nCompanies</string>
+
+
+    <string name="home">Home</string>
+    <string name="login">Login</string>
+    <string name="google_login">Login With Google ID</string>
+    <string name="login_btn">Click to Login</string>
+
+    <string-array name="planets_array">
+        <item>Payment Mode: Cash On Delivery</item>
+        <item>Payment Mode: Debit card</item>
+        <item>Payment Mode: Credit Card</item>
+    </string-array>
+
+    <string name="delivery_pin_code">Delivery Pin Code</string>
+    <string name="time">Delivery by 06&#8211;03&#8211;2022 within 10AM &#8211; 7Pm</string>
+    <string name="search_for_product">Search For Product</string>
+</resources>

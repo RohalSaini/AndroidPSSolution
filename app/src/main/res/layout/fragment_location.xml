@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container"
+    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+    tools:context=".fragment.LocationFragment">
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter pincode of your area"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_below="@+id/pincode"
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:text="Check"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

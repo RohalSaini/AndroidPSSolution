@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary"
+    tools:context=".fragment.searchbybrand.BrandFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/brand"
+            layout="@layout/cartbar"/>
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/icon"
+            android:layout_marginTop="@dimen/_40px"
+            android:layout_marginBottom="@dimen/_40px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/brand"/>
+        <TextView
+            android:layout_marginTop="@dimen/_40px"
+            android:id="@+id/TextBrand"
+            android:text="Select Brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingStart="@dimen/_40px"
+            android:textAlignment="center"
+            android:paddingTop="@dimen/_10px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon"/>
+
+        <Spinner
+            android:id="@+id/spinner_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/TextBrand"
+            app:layout_constraintTop_toTopOf="@+id/TextBrand" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/go"
+            android:text="Go"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextBrand"
+            app:layout_constraintEnd_toStartOf="@+id/spinner_brand"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
